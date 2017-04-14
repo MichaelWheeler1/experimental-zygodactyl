@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BeerAlert - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/BeerAlert.res" /d "_DEBUG" "C:\BARCO\BACKEDUP\VISUAL C++ 6.0\PROJECTS\BeerAlert\BeerAlert.rc"" 
+Creating temporary file "C:\DOCUME~1\miwh\LOCALS~1\Temp\RSPEA.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/BeerAlert.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\BARCO\BACKEDUP\VISUAL C++ 6.0\PROJECTS\BeerAlert\BeerAlert.cpp"
+"C:\BARCO\BACKEDUP\VISUAL C++ 6.0\PROJECTS\BeerAlert\BeerAlertDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\miwh\LOCALS~1\Temp\RSPEA.tmp" 
+Creating temporary file "C:\DOCUME~1\miwh\LOCALS~1\Temp\RSPEB.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/BeerAlert.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\BARCO\BACKEDUP\VISUAL C++ 6.0\PROJECTS\BeerAlert\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\miwh\LOCALS~1\Temp\RSPEB.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/BeerAlert.pdb" /debug /machine:I386 /out:"Debug/BeerAlert.exe" /pdbtype:sept  ".\Debug\BeerAlert.obj" ".\Debug\BeerAlertDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\BeerAlert.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BeerAlert.cpp
+BeerAlertDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/BeerAlert.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\BeerAlert.sbr" ".\Debug\BeerAlertDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+BeerAlert.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
